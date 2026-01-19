@@ -18,7 +18,8 @@
 </p>
 
 ---
-
+▶️ Input Is Lava 🔥 (https://www.youtube.com/@dennis_hilk)
+---
 Body2Bits is an experimental project that explores using the human body  
 as a game controller on Linux.  
 Unconventional input devices, physical movement, and classic games.
