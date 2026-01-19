@@ -24,6 +24,13 @@ Body2Bits is an experimental project that explores using the human body
 as a game controller on Linux.  
 Unconventional input devices, physical movement, and classic games.
 
+## How it works
+
+1. **Input device:** The Wii Balance Board provides weight and balance data.
+2. **Linux input layer:** `evdev` reads the raw device events, while `uinput` exposes a virtual keyboard.
+3. **Mapping:** Movements are translated into key presses for classic games.
+4. **Calibration:** A persistent calibration profile keeps the experience consistent between sessions.
+
 ## Status
 
 🧪 **Experimental / Work in Progress**  
