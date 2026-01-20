@@ -20,25 +20,58 @@
 ---
 ▶️ Input Is Lava 🔥 (https://www.youtube.com/@dennis_hilk)
 ---
-Body2Bits is an experimental project that explores using the human body  
-as a game controller on Linux.  
-Unconventional input devices, physical movement, and classic games.
+Body2Bits is an experimental project exploring the human body as an input device on Linux.
 
-## How it works
+Instead of traditional controllers, Body2Bits uses physical movement, balance, and weight as primary input signals.
+The goal is not realism or efficiency, but playful, sometimes absurd, and often surprising human–computer interaction.
 
-1. **Input device:** The Wii Balance Board provides weight and balance data.
-2. **Linux input layer:** `evdev` reads the raw device events, while `uinput` exposes a virtual keyboard.
-3. **Mapping:** Movements are translated into key presses for classic games.
-4. **Calibration:** A persistent calibration profile keeps the experience consistent between sessions.
+This project intentionally blends:
 
-## Status
+unconventional hardware
 
-🧪 **Experimental / Work in Progress**  
-Initial prototype created on **2026-01-19**.
+physical interaction
 
-## Current Prototype
+minimal software layers
 
-- Wii Balance Board as input device
-- Linux (evdev / uinput)
-- Physical movement mapped to keyboard input
-- Persistent calibration support
+and a bit of controlled chaos
+
+How it works
+
+Input devices
+Primarily the Wii Balance Board, providing raw weight and balance data.
+Additional devices (e.g. Wii Remote, cameras, sensors) may be explored later.
+
+Linux input layer
+Raw data is read via evdev.
+A virtual input device is exposed using uinput, allowing compatibility with existing software.
+
+Mapping
+Physical actions such as leaning, standing still, squatting, or weight shifts are translated into keyboard or mouse input.
+
+Calibration
+A persistent calibration profile ensures consistent behavior across sessions, even with different body weights or setups.
+
+Status
+
+🧪 Experimental / Work in Progress
+Initial prototype created on 2026-01-19
+
+Expect:
+
+rapid iteration
+
+broken ideas
+
+weird but fun results
+
+Stability is not the goal. Exploration is.
+
+Current Prototype
+
+Wii Balance Board as primary input device
+
+Linux (evdev / uinput)
+
+Physical movement mapped to keyboard input
+
+Persistent calibration support
