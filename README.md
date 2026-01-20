@@ -1,7 +1,7 @@
 # Body2Bits
 
 <p align="center">
-  <img src="assets/banner.png" alt="Body2Bits Banner" width="100%">
+  <img src="banner.png" alt="Body2Bits Banner" width="100%">
 </p>
 
 <p align="center">
