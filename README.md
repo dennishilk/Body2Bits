@@ -56,7 +56,7 @@ All projects are designed to be:
 
 ## 🧪 Projects
 
-### Doom-Fit
+### DoomFit
 Play Doom using a Wii Balance Board.
 Movement is controlled by weight shifts, stomps, and balance.
 Yes, it works. No, it’s not comfortable.
