@@ -56,12 +56,12 @@ All projects are designed to be:
 
 ## 🧪 Projects
 
-### DoomFit
+### Doom-Fit
 Play Doom using a Wii Balance Board.
 Movement is controlled by weight shifts, stomps, and balance.
 Yes, it works. No, it’s not comfortable.
 
-→ `doomfit/`
+→ `doom-fit/`
 
 ### Alarm from Hell 😈
 An alarm clock that cannot be snoozed.
