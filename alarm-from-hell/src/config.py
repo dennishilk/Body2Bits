@@ -36,12 +36,12 @@ PRESETS = {
         "MIN_WEIGHT_KG": 15.0,
 
         # Squat / stomp
-        "REQUIRED_SQUATS": 5,
+        "REQUIRED_SQUATS": 10,
         "STOMP_DELTA_KG": 20.0,
         "STOMP_COOLDOWN_SEC": 0.5,
 
         # Stillness
-        "REQUIRED_STILL_TIME_SEC": 8.0,
+        "REQUIRED_STILL_TIME_SEC": 10.0,
         "STILLNESS_TOLERANCE_KG": 2.0,
     },
 
@@ -50,7 +50,7 @@ PRESETS = {
         "MIN_WEIGHT_KG": 20.0,
 
         # Squat / stomp
-        "REQUIRED_SQUATS": 8,
+        "REQUIRED_SQUATS": 15,
         "STOMP_DELTA_KG": 25.0,
         "STOMP_COOLDOWN_SEC": 0.6,
 
@@ -64,7 +64,7 @@ PRESETS = {
         "MIN_WEIGHT_KG": 25.0,
 
         # Squat / stomp
-        "REQUIRED_SQUATS": 12,
+        "REQUIRED_SQUATS": 25,
         "STOMP_DELTA_KG": 35.0,
         "STOMP_COOLDOWN_SEC": 0.9,
 
