@@ -26,73 +26,72 @@ https://www.youtube.com/@dennis_hilk
 
 ## Overview
 
-Body2Bits is an experimental project exploring the human body as an input device on Linux.
+Body2Bits is an experimental Linux project space exploring one idea:
+What happens when the human body becomes the input device?
 
-Instead of traditional controllers, Body2Bits uses physical movement, balance, and weight as primary input signals.  
-The goal is not realism or efficiency, but playful, sometimes absurd, and often surprising human–computer interaction.
+Instead of keyboards, mice, or gamepads, these projects use:
+- weight
+- balance
+- motion
+- physical presence
 
-This project intentionally blends:
+as first-class input signals.
 
-- unconventional hardware  
-- physical interaction  
-- minimal software layers  
-- a bit of controlled chaos  
+The focus is not fitness or health.
+The focus is **control, feedback, and consequences**.
 
----
+This repository contains small, opinionated experiments that combine:
+- Linux
+- weird hardware
+- raw sensor data
+- and slightly unhinged ideas
 
-## How it works
-
-### Input devices
-
-Primarily the **Wii Balance Board**, providing raw weight and balance data.  
-Additional devices (e.g. Wii Remote, cameras, sensors) may be explored later.
-
-### Linux input layer
-
-Raw data is read via **evdev**.  
-A virtual input device is exposed using **uinput**, allowing compatibility with existing software.
-
-### Mapping
-
-Physical actions such as leaning, standing still, squatting, or weight shifts are translated into keyboard or mouse input.
-
-### Calibration
-
-A persistent calibration profile ensures consistent behavior across sessions, even with different body weights or setups.
+All projects are designed to be:
+- technically transparent
+- reproducible
+- visually demonstrable
+- and fun to watch fail.
 
 ---
-## 🔥 Alarm from Hell
 
-A sadistic alarm clock that cannot be snoozed.
+## 🧪 Projects
 
-The alarm stops only if you:
-- step onto a Wii Balance Board
-- perform physical actions (stomps / squats)
-- remain still afterward
+### DoomFit
+Play Doom using a Wii Balance Board.
+Movement is controlled by weight shifts, stomps, and balance.
+Yes, it works. No, it’s not comfortable.
+
+→ `doomfit/`
+
+### Alarm from Hell 😈
+An alarm clock that cannot be snoozed.
+
+The alarm stops only if:
+- your body steps onto a Wii Balance Board
+- you perform physical actions
+- and remain still afterward
 
 Leaving the board resets or escalates the alarm.
 
 → `alarm-from-hell/`
 
+---
 
-## Status
+## Philosophy
 
-🧪 **Experimental / Work in Progress**  
-Initial prototype created on **2026-01-19**
+Body2Bits intentionally avoids machine learning where possible.
+Human movement is already loud in raw data.
+Thresholds, deltas, and physics are enough.
 
-Expect:
-
-- rapid iteration  
-- broken ideas  
-- weird but fun results  
-
-Stability is not the goal. Exploration is.
+If a system cannot explain *why* it reacts,
+it should not control your body.
 
 ---
 
-## Current Prototype
+## Status
 
-- Wii Balance Board as primary input device  
-- Linux (`evdev` / `uinput`)  
-- Physical movement mapped to keyboard input  
-- Persistent calibration support  
+Highly experimental.
+Occasionally sadistic.
+Always honest.
+
+Linux only.
