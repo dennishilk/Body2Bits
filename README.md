@@ -26,8 +26,9 @@ https://www.youtube.com/@dennis_hilk
 
 ## Overview
 
-Body2Bits is an experimental Linux project space exploring one idea:
-What happens when the human body becomes the input device?
+Body2Bits is an experimental Linux project space exploring a simple question:
+
+**What happens when the human body becomes the input device?**
 
 Instead of keyboards, mice, or gamepads, these projects use:
 - weight
@@ -37,20 +38,20 @@ Instead of keyboards, mice, or gamepads, these projects use:
 
 as first-class input signals.
 
-The focus is not fitness or health.
+The focus is not fitness or health.  
 The focus is **control, feedback, and consequences**.
 
 This repository contains small, opinionated experiments that combine:
 - Linux
 - weird hardware
 - raw sensor data
-- and slightly unhinged ideas
+- slightly unhinged ideas
 
-All projects are designed to be:
+All projects aim to be:
 - technically transparent
 - reproducible
 - visually demonstrable
-- and fun to watch fail.
+- and interesting to watch (especially when they fail)
 
 ---
 
@@ -58,20 +59,23 @@ All projects are designed to be:
 
 ### DoomFit
 Play Doom using a Wii Balance Board.
-Movement is controlled by weight shifts, stomps, and balance.
+
+Movement is controlled by weight shifts, stomps, and balance.  
 Yes, it works. No, it’s not comfortable.
 
 → `doom-fit/`
+
+---
 
 ### Alarm from Hell 😈
 An alarm clock that cannot be snoozed.
 
 The alarm stops only if:
 - your body steps onto a Wii Balance Board
-- you perform physical actions
+- you perform required physical actions
 - and remain still afterward
 
-Leaving the board resets or escalates the alarm.
+Leaving the board or stopping early escalates the alarm.
 
 → `alarm-from-hell/`
 
@@ -80,18 +84,19 @@ Leaving the board resets or escalates the alarm.
 ## Philosophy
 
 Body2Bits intentionally avoids machine learning where possible.
-Human movement is already loud in raw data.
-Thresholds, deltas, and physics are enough.
 
-If a system cannot explain *why* it reacts,
+Human movement is already loud in raw sensor data.  
+Thresholds, deltas, and simple physics are often enough.
+
+If a system cannot explain *why* it reacts,  
 it should not control your body.
 
 ---
 
 ## Status
 
-Highly experimental.
-Occasionally sadistic.
+Highly experimental.  
+Occasionally sadistic.  
 Always honest.
 
 Linux only.
