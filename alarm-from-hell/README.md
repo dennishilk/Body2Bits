@@ -81,6 +81,13 @@ python3 src/calibration.py
 ```
 Calibration measures zero offset and body weight and writes the values automatically to src/config.py.
 
+
+## Difficulty can be changed via `PRESET` in `src/config.py`
+(`easy`, `normal`, `hell`).
+
+---
+
+
 Starting the Alarm
 Start the alarm using a relative delay before going to bed:
 ```bash
