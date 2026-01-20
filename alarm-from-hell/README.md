@@ -99,35 +99,35 @@ Supported units:
 
 Combinations like 8h10m are supported.
 
-Configuration
+---
+
+### Configuration
+
 All configuration is done in:
 
+```text
 src/config.py
-Example:
-
 REQUIRED_SQUATS = 10
 REQUIRED_STILL_TIME_SEC = 30.0
 MIN_WEIGHT_KG = 20.0
-REQUIRED_SQUATS sets how many squats are required
-
-REQUIRED_STILL_TIME_SEC sets how long you must stand completely still
-
-MIN_WEIGHT_KG defines the minimum weight required to count as being on the board
-
+```
 No other code needs to be changed.
 
-What Happens
-The alarm starts with sound and fullscreen terminal output
+---
 
-You must get on the board
+### What Happens
 
-Perform squats
+- Alarm starts with sound and fullscreen terminal output
 
-Stand perfectly still
+- Get on the board
 
-Silence
+- Perform squats
 
-Stopping, stepping off the board, or moving too early will escalate the alarm.
+- Stand perfectly still
+
+- Silence
+
+Any attempt to stop, step off the board, or move too early will escalate the alarm.
 
 ---
 
