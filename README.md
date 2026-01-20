@@ -14,7 +14,7 @@
 
 <p align="center">
   <strong>Human body as a game controller.</strong><br>
-  Linux, weird hardware, classic games.
+  Linux, weird hardware, experimental input projects.
 </p>
 
 ---
