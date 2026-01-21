@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Runtime
+*.log
+*.tmp
+*.raw
+*.dump
+
+# Calibration / user data
+calibration.json
+*.cal.json
+
+# Build artifacts
+build/
+dist/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
