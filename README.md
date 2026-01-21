@@ -67,6 +67,43 @@ Yes, it works. No, it’s not comfortable.
 
 ---
 
+### Snake-Fit 🐍
+A modernized Snake game with classic arcade vibes.
+
+Currently controlled via keyboard, featuring:
+- sound & music
+- bonus and bad food
+- highscore system
+- cheat mode
+- clean Linux-native setup
+
+**Planned:**  
+Control Snake using a Wii Balance Board by shifting body weight left/right/forward/backward.
+
+This project serves as a controlled baseline before adding physical input.
+
+→ `snake-fit/`
+
+---
+
+### Neverball-Fit ⚖️
+Neverball controlled entirely via a Wii Balance Board.
+
+Instead of tilting the level with a keyboard or mouse,  
+the player shifts their body weight to control the ball.
+
+Focus areas:
+- balance precision
+- deadzones
+- calibration
+- physical feedback loops
+
+This project explores *continuous analog body input* instead of discrete actions.
+
+→ `neverball-fit/`
+
+---
+
 ### Alarm from Hell 😈
 An alarm clock that cannot be snoozed.
 
